@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Categorie;
+
 use App\Client;
 use Illuminate\Http\Request;
 
