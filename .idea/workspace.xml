@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6cec0a21-e618-4273-881f-b50c346e1b81" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Administrator.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Administrator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Categorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Categorie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Dealer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Dealer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Feedback.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Offer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Offer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Sale.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Sale.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Store.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Store.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_12_233656_create_feedback_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_13_011230_create_orders_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_13_011230_create_orders_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+>>>>>>> 3cbceda56a18d3800a396a420cff7405d7164272
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +156,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -128,6 +164,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../appatucasa1" />
+>>>>>>> 3cbceda56a18d3800a396a420cff7405d7164272
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -150,18 +189,42 @@
       <workItem from="1597206616054" duration="1157000" />
       <workItem from="1597207795223" duration="46000" />
       <workItem from="1597207842903" duration="8000" />
+<<<<<<< HEAD
       <workItem from="1597207950506" duration="452000" />
       <workItem from="1597274938034" duration="2707000" />
+=======
+      <workItem from="1597207950506" duration="1606000" />
+      <workItem from="1597292473433" duration="4139000" />
+>>>>>>> 3cbceda56a18d3800a396a420cff7405d7164272
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1597207839745">
+    <state x="480" y="139" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597301810568">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597207839745" />
+    <state x="480" y="139" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1597301810568" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1597293819272">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597293819272" />
+    <state x="438" y="87" key="NewPhpClassDialog" timestamp="1597301781132">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="438" y="87" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1597301781132" />
   </component>
 </project>
