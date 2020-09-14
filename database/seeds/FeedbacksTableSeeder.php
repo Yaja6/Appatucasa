@@ -18,12 +18,15 @@ class FeedbacksTableSeeder extends Seeder
         //faker para llenar tabla
         $faker = \Faker\Factory::create();
 
+        //obtengo ventas
+        $sales = App\Sale::all();
 
         //Crear feedback
         for ($i = 0; $i < 6; $i++) {
             Feedback::create([
                 'text' => $faker->text,
-                'value' => $faker->numberBetween(1,5)
+                'value' => $faker->numberBetween(1, 5),
+                'sale_id' => $faker->numberBetween(1,50),
             ]);
         }
     }

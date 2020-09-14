@@ -18,12 +18,14 @@ class OrdersTableSeeder extends Seeder
         //faker para llenar tabla
         $faker = \Faker\Factory::create();
 
+
         //Crear pedidos
         for ($i = 0; $i < 5; $i++) {
             Order::create([
                 'time' => $faker->time('H:i:s','now'),
                 'quantity' => $faker->numberBetween(1, 50),
                 'finalprice' => $faker->randomFloat( NULL,  0,  2),
+                'user_id' =>$faker->numberBetween(1,10),
             ]);
         }
     }

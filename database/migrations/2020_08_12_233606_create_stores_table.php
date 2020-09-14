@@ -17,8 +17,17 @@ class CreateStoresTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('location');
+            //$table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->timestamps();
         });
+        Schema::create('store_user', function (Blueprint $table) {
+            $table->unsignedBigInteger('store_id');
+            $table->foreign('store_id')->references('id')->on('stores')->onDelete('restrict');
+            $table->unsignedBigInteger('user_id');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('restrict');
+            $table->timestamps();
+        });
+
     }
 
     /**
@@ -28,6 +37,9 @@ class CreateStoresTable extends Migration
      */
     public function down()
     {
+        Schema::disableForeignKeyConstraints();
+        Schema::dropIfExists('store_user');
         Schema::dropIfExists('stores');
+        Schema::enableForeignKeyConstraints();
     }
 }

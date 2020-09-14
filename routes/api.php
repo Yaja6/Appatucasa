@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 
+
 Route::post('register', 'UserController@register');
 Route::post('login', 'UserController@authenticate');
 Route::get('categories', 'CategorieController@index');
