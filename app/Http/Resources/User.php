@@ -9,7 +9,7 @@ class User extends JsonResource
     /**
      * Transform the resource into an array.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request
      * @return array
      */
     public function toArray($request)
@@ -17,10 +17,10 @@ class User extends JsonResource
         return [
             'id' => $this->id,
             'name' => $this->name,
-            'lastname'=>$this->lastname,
+            'lastname' => $this->lastname,
             'address' => $this->address,
             'email' => $this->email,
-           // 'role' => $this->role,
+            'role' => $this->role,
 
         ];
     }
