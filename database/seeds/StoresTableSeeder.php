@@ -15,15 +15,26 @@ class StoresTableSeeder extends Seeder
         //VACIAR TABLA
         Store::truncate();
 
-        //faker para llenar tabla
         $faker = \Faker\Factory::create();
+        // Obtenemos la lista de todos los usuarios creados e
+        // iteramos sobre cada uno y simulamos un inicio de
+        // sesión con cada uno para crear tiendas en su nombre
 
-        //Crear 1 local por cada administrador
-        for ($i = 0; $i < 6; $i++) {
-            Store::create([
-                'name' => $faker->name,
-                'location' => $faker->sentence,
-            ]);
+        $users = App\User::all();
+        foreach ($users as $user) {
+            // iniciamos sesión con este usuario
+            JWTAuth::attempt(['email' => $user->email, 'password' => '123123']);
+
+            // Por cada usuario creamos 1 tienda
+
+            $num_store = 1;
+            for ($j = 0; $j < $num_store; $j++) {
+                Store::create([
+                    'name' => $faker->sentence,
+                    'location' => $faker->address,
+
+                ]);
+            }
         }
     }
 }
