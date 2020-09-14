@@ -75,4 +75,12 @@ Route::group(['middleware' => ['jwt.verify']], function () {
     Route::post('stores', 'StoreController@store');
     Route::put('stores/{store}', 'StoreController@update');
     Route::delete('stores/{store}', 'StoreController@delete');
+
+    //feedback
+
+    Route::get('feedback', 'FeedbackController@index');
+    Route::get('feedback/{feedback}', 'FeedbackController@show');
+    Route::post('feedback', 'FeedbackController@store');
+    Route::put('feedback/{feedback}', 'FeedbackController@update');
+    Route::delete('feedback/{feedback}', 'FeedbackController@delete');
 });

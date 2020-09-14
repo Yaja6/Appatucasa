@@ -27,6 +27,7 @@ class FeedbacksTableSeeder extends Seeder
                 'text' => $faker->text,
                 'value' => $faker->numberBetween(1, 5),
                 'sale_id' => $faker->numberBetween(1,50),
+                'user_id' =>$faker->numberBetween(1,10)
             ]);
         }
     }
