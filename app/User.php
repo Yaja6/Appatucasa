@@ -52,6 +52,9 @@ class User extends Authenticatable implements JWTSubject
     public function orders(){
         return $this->hasMany('App\Order');
     }
+    public function feedback(){
+        return $this->hasMany('App\Feedback');
+    }
     public function stores(){
         return $this->belongsToMany('App\Store','store_user')->as('store_user')->withTimestamps();;
     }
